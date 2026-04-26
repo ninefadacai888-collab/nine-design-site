@@ -1,0 +1,52 @@
+{
+    "title": "products",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "name": {
+            "type": "string",
+            "description": "Product name"
+        },
+        "description": {
+            "type": "string",
+            "description": "Product description"
+        },
+        "price": {
+            "type": "integer",
+            "description": "Product price"
+        },
+        "category": {
+            "type": "string",
+            "description": "Product category"
+        },
+        "image_url": {
+            "type": "string",
+            "description": "Product image URL"
+        },
+        "specs": {
+            "type": "string",
+            "description": "Product specifications JSON"
+        },
+        "in_stock": {
+            "type": "boolean",
+            "description": "Whether product is in stock"
+        },
+        "is_hot": {
+            "type": "boolean",
+            "description": "Whether product is marked as hot/popular"
+        },
+        "is_sale": {
+            "type": "boolean",
+            "description": "Whether product is on sale/promotion"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "price",
+        "category"
+    ]
+}
