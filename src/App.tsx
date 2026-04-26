@@ -16,6 +16,8 @@ import Custom from './pages/Custom';
 import Sale from './pages/Sale';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 import AuthCallback from './pages/AuthCallback';
 import AuthError from './pages/AuthError';
 import AdminLogin from './pages/AdminLogin';
@@ -52,6 +54,8 @@ const App = () => {
                 <Route path="/sale" element={<Sale />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} />
                 <Route path="/auth/callback" element={<AuthCallback />} />
                 <Route path="/auth/error" element={<AuthError />} />
 
